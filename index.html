@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>homepage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+
+    <header>
+      <nav>
+        <div class="container-fluid">
+<div class="row justify-content-between">
+<div class="logo px-4  col-xl-6  ">
+  <img src="images/lowest-logo.png" alt="">
+</div>
+
+<div class="menu col-xl-6 ">
+  <ul class=" d-flex  justify-content-between "  >
+    <li><a href="#">Home    </a></li>
+    <li><a href="#"> About Us  </a></li>
+    <li><a href="#"> Blogs  </a></li>
+    <li><a href="#">Contact Us  </a> </li>
+    <li><a class="num" href="#"> +91 9999558844  </a></li>
+    <li><a href="#"> <img class="mx-2"  src="images/download.png" alt=""><span >Engligh <i class="fa fa-angle-down" aria-hidden="true"></i> </span>  </a></li>
+  </ul>
+</div>
+
+</div>
+
+        </div>
+      </nav>
+    </header>
+
+
+<div class="banner p-5 ">
+
+<div class="container">
+    <div class="row ">
+
+        <div class="col-xl-7 banner-text ">
+            <h1 class="text-white ">cheap flights</h1>
+            <p class="text-white ">Grab the best deal and reserve the cheapest flight fares for yourself</p>
+            <p class="text-white"> <span> See our 390 reviews on <img src="images/logo-white.svg" alt="" > </span> 
+            </p>
+        </div>
+
+
+
+    <!--*************************************** booking table********************************** -->
+        <div class="col-xl-12 booking-box">
+
+ 
+<button class="tablink " onclick="openPage('Home', this,)" id="defaultOpen" ><i class="fa fa-plane mx-1" aria-hidden="true"></i>Flights</button>
+<button class="tablink " onclick="openPage('News', this, )" > Flights <i class="fa fa-plus mx-1 " aria-hidden="true"></i> Hotels </button>
+<button class="tablink " onclick="openPage('Contact', this,)"><i class="fa fa-bed mx-1 " aria-hidden="true"></i>Hotel</button>
+<button class="tablink " onclick="openPage('About', this, )"><i class="fa fa-car mx-1 " aria-hidden="true"></i> Cars</button>
+
+<div id="Home" class="tabcontent">
+
+  <form action="" class="col-xl-12 ">
+
+
+    <div class=" col-xl-6 my-2 float-start  ">
+    <label for=""> Your Name </label>
+    <input type="text" class="col-xl-11 " >
+  </div>
+    <div class=" col-xl-6 my-2 float-start  ">
+    <label for=""> Your Email </label>
+    <input type="text" class="col-xl-11 " >
+  </div>
+
+
+    <div class=" col-xl-6 my-2 float-start  ">
+    <label for=""> Your Email </label>
+    <input type="text" class="col-xl-11 " >
+  </div>
+    <div class=" col-xl-6 my-2 float-start  ">
+    <label for=""> Your Email </label>
+    <input type="text" class="col-xl-11 " >
+  </div>
+    <div class=" col-xl-12 my-2 float-start  ">
+    <label for=""> Subject</label>
+    <input type="text" class="col-xl-12 " >
+  </div>
+ 
+
+  <button type="submit" class="btn  form-btn col-xl-12">Submit</button>
+
+
+  </form>
+
+
+</div>
+
+<div id="News" class="tabcontent">
+  <h3>News</h3>
+  <p>Some news this fine day!</p> 
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  <p>Who we are and what we do.</p>
+</div>
+         
+
+
+
+          
+        </div>
+ <!--*************************************** booking table********************************** -->
+    </div>
+
+</div>
+
+</div>
+
+<section class="slider p-5 ">
+    <div class="container">
+        <div class="row ">
+            <div class="col-xl-4  mx-auto"><h2>featured on</h2></div>
+
+            <div class="sliderbox   ">
+
+
+              <div class="owl-carousel   owl-theme">
+                <div class="item">
+                  <img class="slider-img" src="images/yahoosupport.jpg " alt="">
+                </div>
+               
+                
+                <div class="item">
+                  <img class="slider-img" src="images/gobanking.png " alt="">
+                </div>
+
+                <div class="item">
+                  <img class="slider-img" src="images/aol.jpg " alt="">
+                </div>
+
+
+                <div class="item">
+                  <img class="slider-img" src="images/travelworld.webp " alt="">
+                </div>
+
+                <div class="item">
+                  <img class="slider-img" src="images/curly.jpg " alt="">
+                </div>
+
+                <div class="item">
+                  <img class="slider-img" src="images/mailonline.png " alt="">
+                </div>
+
+                <div class="item">
+                  <img class="slider-img" src="images/gobanking.png " alt="">
+                </div>
+
+                <div class="item">
+                  <img class="slider-img" src="images/nasdaq.png " alt="">
+                </div>
+
+                <div class="item">
+                  <img class="slider-img" src="images/travelworld.webp " alt="">
+                </div>
+
+
+                <div class="item">
+                  <img class="slider-img" src="images/yahoo.jpg " alt="">
+                </div>
+               
+            </div>
+
+
+
+            </div>
+
+<div class="features-box mt-4 col-xl-12">
+
+<div class="man float-start col-xl-5 ">
+    <img src="images/lowest-man.png" alt="">
+</div>
+
+
+<div>
+
+<div class="boxes float-end  d-flex justify-content-around flex-wrap  col-xl-7  ">
+ 
+
+<div class="col-xl-6  ">
+       <div class="box" style=" background-image:linear-gradient(rgb(48, 65, 111) 23%, rgb(68, 157, 213) 100%);">
+        <div class="imgage" style="  border: 3px solid #ffffff; " ><i style="color: #ffffff;"  class="fa fa-lightbulb-o fa-1x " aria-hidden="true"></i>
+</div>
+        <div class="text" style="color: #ffffff;"  > <h4>How do we shine apart?</h4>
+         <p class="" > 
+            You are Important to us. When you choose Lowest Flight Fares, we dedicate ourselves to providing you with detailed and organised information on lowest flight ticket and giving you a first-rate user experience.    
+         </p>
+     </div>
+       </div>   
+       <div class=" box" >
+        <div class="imgage"><i class="fa fa-lightbulb-o fa-1x " aria-hidden="true"></i>
+</div>
+        <div class="text"> <h4>
+          Stress-Free Experience    </h4>
+         <p class="" > 
+          We organise your flight search so that you have the time to dream about your journey. We bring out the best deals against your flight search, which you can’t ignore. 
+         </p>
+     </div>
+       </div>   
+
+      </div>
+
+      <div class="col-xl-6 ">
+
+       <div class=" box  " >
+        <div class="imgage  "><i class="fa fa-lightbulb-o fa-1x " aria-hidden="true"></i>
+</div>
+        <div class=" text"> <h4> Book with Confidence </h4>
+         <p class="" > 
+          You are risk-free when you book your flight with us. We dedicated ourselves to making flexible terms and conditions so that you can book with peace. 
+         </p>
+     </div>
+       </div> 
+
+
+       <div class=" box " style=" background-image:linear-gradient(rgb(48, 65, 111) 23%, rgb(68, 157, 213) 100%);" >
+        <div class="imgage" style="border: 3px solid #ffffff;"><i style="color: #ffffff;" class="fa fa-lightbulb-o fa-1x " aria-hidden="true"></i>
+</div>
+        <div class="text" style="color: #ffffff;"  > <h4>Book Lowest Flight Tickets </h4>
+         <p class="" > 
+          With our interactive travel portal, the user can easily find and book the lowest flight tickets to over 20 North and South American countries. 
+         </p>
+     </div>
+       </div> 
+
+       <div class=" box " >
+        <div class="imgage "><i class="fa fa-lightbulb-o fa-1x " aria-hidden="true"></i>
+</div>
+        <div class="text"> <h4>
+          We Value Your Time  </h4>
+         <p class="" >
+          We don’t want you to spend your time looking for one suitable flight. Just enter destination & date, & we will give you the best cheap flight fare possible.. 
+         </p>
+     </div>
+       </div> 
+
+      </div>
+       
+      
+       
+    
+</div>
+
+<!-- boxes ends here  -->
+
+</div>
+
+</div>
+
+
+        </div>
+    </div>
+</section>
+
+
+
+<section class=" ">
+    <div class="container">
+        <div class="row">
+
+     <div class="full-width info">
+       
+  <p class="" >
+    The concept behind the birth of Lowestflightfares.com is to make travel simple, accessible, and affordable for everyone. We are designed to make your booking experience seamless and help you get the lowest flight tickets. 
+    <br>At Lowestflightfares.com, you can find affordable flight tickets and flight deals to any destination. With no hidden fees and charges, you can always stay one step ahead with flexible flight tickets.
+As one of the leading online travel agencies in the US, we constantly endeavor to make your journey memorable and affordable.
+<br> From choosing the destination to finding the lowest flight ticket, we give you the freedom to choose from a wide range of options.
+We collect information on hundreds of flights, so you don’t have to.
+<br> We believe in transparency, and the price you see on our site should be the price you pay while booking flights for any destination.
+With customer satisfaction being our ultimate goal, our support team is on hand seven days a week and assists you with any issues while booking the lowest flight ticket.
+  </p>
+
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="find">
+    <div class="container">
+        <div class="row">
+                <h2> 
+                    How to Find Lowest Flight Tickets
+                     </h2>
+                     <p>
+                        While planning a domestic or international trip, the ultimate goal is to find <b> cheap flight fares</b>. As a leading online travel shop, we endeavor to ensure our customers get exactly what they are looking for. But sometimes, airlines increase their price, and in that case, we don’t want you to panic and play it smart.  Here we have some tips for you to book affordable flight tickets with no extra charges.
+                     </p>
+           
+
+<div class=" pt-4  d-flex flex-wrap justify-content-around ">
+   
+    <div class="col-xl-3 find-points ">   
+ <div class="point-logo"> </div>
+        <h5>
+            Be Flexible with Your Date </h5>       
+            <p>Getting a cheap flight fare is much easier than you think if you are flexible with your date. The price of the flight tickets depends to a great extent on the date and time of your journey. Avoid holidays and weekends and book your flight during weekdays to get maximum deals on cheap flight tickets. 
+            </p>
+    </div>
+
+
+    <div class="col-xl-3 find-points">
+        <div class="point-logo"> </div>
+               <h5>
+                Book in Advance  </h5>
+               
+                   <p>You can secure the best flight rates if you know the date of your journey three weeks before departure. Booking sooner is one of the easiest ways to get a cheap flight ticket to destination. 
+                   </p>
+           </div>
+
+
+           <div class="col-xl-3 find-points">
+            <div class="point-logo"> </div>
+                   <h5> Use Different Currency </h5>
+                   
+                       <p>Most of the time, you can get cheap flight fares by using different currencies while booking. However, it is better to check that your credit card doesn’t charge you fees for foreign transactions. 
+                       </p>
+               </div>
+
+               
+               <div class="col-xl-3 find-points">
+                <div class="point-logo"> </div>
+                       <h5>
+                        Join a Frequent Flyer Program  </h5>
+                       
+                           <p>If you are a frequent flyer, it is better to travel with the same airlines. Airlines have a ‘frequent Flyer Program’, from which you can earn points while booking flights and get cheaper air tickets and upgrades. 
+               
+                           </p>
+                   </div>
+
+           <div class="col-xl-3 find-points">
+            <div class="point-logo"> </div>
+                   <h5>
+                       
+Book non-refundable air tickets  </h5>
+                   
+                       <p>If you are certain about your departure date, try booking non-refundable tickets. Airlines keep the pricing of non-refundable tickets less than refundable ones.
+           
+                       </p>
+               </div>
+
+
+
+
+               <div class="col-xl-3 find-points">
+                <div class="point-logo"> </div>
+                       <h5>
+                          
+Go for Budget Airlines </h5>
+                       
+                           <p>Budget airlines offer cheaper rates because they cut out on services like beverages, food, entertainment etc. Although they do not offer luxuries, they ensure a satisfactory flying experience. 
+                           </p>
+                   </div>
+
+
+</div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<section class="route-box full-width  ">
+<div class="container">
+  <div class="row">
+   
+   <h5>POPULAR ROUTES</h5>
+
+      <div class="col-xl-6  d-flex flex-wrap ">
+
+
+<div class="col-xl-9 routes my-2  ">
+<div class="flogo col-xl-1 float-start "><img src="images/SG.gif" alt=""></div>
+<div class="f-name-1 col-xl-5  float-start ">
+<p> <b>PNQ</b> Pune </p>
+<p class="date">01 jan 2024 </p>
+<img class="plane" src="images/airplane.png" alt="">
+</div>
+<div class="f-name-2 col-xl-4  float-start  ">
+  <p> <b>PNQ</b> Pune </p>
+<p class="date">one way  </p>
+</div>
+<div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+</div>
+
+
+<div class="col-xl-9 routes my-2  ">
+  <div class="flogo col-xl-1 float-start "><img src="images/6E.gif " alt=""></div>
+  <div class="f-name-1 col-xl-5  float-start ">
+  <p> <b>PNQ</b> Pune </p>
+  <p class="date">01 jan 2024 </p>
+  <img class="plane" src="images/airplane.png" alt="">
+  </div>
+  <div class="f-name-2 col-xl-4  float-start  ">
+    <p> <b>PNQ</b> Pune </p>
+  <p class="date">one way  </p>
+  </div>
+  <div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+  </div>
+
+
+  <div class="col-xl-9 routes my-2  ">
+    <div class="flogo col-xl-1 float-start "><img src="images/FD.gif " alt=""></div>
+    <div class="f-name-1 col-xl-5  float-start ">
+    <p> <b>PNQ</b> Pune </p>
+    <p class="date">01 jan 2024 </p>
+    <img class="plane" src="images/airplane.png" alt="">
+    </div>
+    <div class="f-name-2 col-xl-4  float-start  ">
+      <p> <b>PNQ</b> Pune </p>
+    <p class="date">one way  </p>
+    </div>
+    <div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+    </div>
+
+
+
+    <div class="col-xl-9 routes my-2  ">
+      <div class="flogo col-xl-1 float-start "><img src="images/AK.gif " alt=""></div>
+      <div class="f-name-1 col-xl-5  float-start ">
+      <p> <b>PNQ</b> Pune </p>
+      <p class="date">01 jan 2024 </p>
+      <img class="plane" src="images/airplane.png" alt="">
+      </div>
+      <div class="f-name-2 col-xl-4  float-start  ">
+        <p> <b>PNQ</b> Pune </p>
+      <p class="date">one way  </p>
+      </div>
+      <div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+      </div>
+
+
+
+
+      <div class="col-xl-9 routes my-2  ">
+        <div class="flogo col-xl-1 float-start "><img src="images/EY.gif " alt=""></div>
+        <div class="f-name-1 col-xl-5  float-start ">
+        <p> <b>PNQ</b> Pune </p>
+        <p class="date">01 jan 2024 </p>
+        <img class="plane" src="images/airplane.png" alt="">
+        </div>
+        <div class="f-name-2 col-xl-4  float-start  ">
+          <p> <b>PNQ</b> Pune </p>
+        <p class="date">one way  </p>
+        </div>
+        <div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+        </div>
+
+      </div>
+
+
+      <div class="col-xl-6 float-end d-flex flex-wrap ">
+
+
+<div class="col-xl-9 routes my-2  ">
+  <div class="flogo col-xl-1 float-start "><img src="images/SG.gif" alt=""></div>
+  <div class="f-name-1 col-xl-5  float-start ">
+  <p> <b>PNQ</b> Pune </p>
+  <p class="date">01 jan 2024 </p>
+  <img class="plane" src="images/airplane.png" alt="">
+  </div>
+  <div class="f-name-2 col-xl-4  float-start  ">
+    <p> <b>PNQ</b> Pune </p>
+  <p class="date">one way  </p>
+  </div>
+  <div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+  </div>
+  
+  
+  <div class="col-xl-9 routes my-2  ">
+    <div class="flogo col-xl-1 float-start "><img src="images/6E.gif " alt=""></div>
+    <div class="f-name-1 col-xl-5  float-start ">
+    <p> <b>PNQ</b> Pune </p>
+    <p class="date">01 jan 2024 </p>
+    <img class="plane" src="images/airplane.png" alt="">
+    </div>
+    <div class="f-name-2 col-xl-4  float-start  ">
+      <p> <b>PNQ</b> Pune </p>
+    <p class="date">one way  </p>
+    </div>
+    <div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+    </div>
+  
+  
+    <div class="col-xl-9 routes my-2  ">
+      <div class="flogo col-xl-1 float-start "><img src="images/FD.gif " alt=""></div>
+      <div class="f-name-1 col-xl-5  float-start ">
+      <p> <b>PNQ</b> Pune </p>
+      <p class="date">01 jan 2024 </p>
+      <img class="plane" src="images/airplane.png" alt="">
+      </div>
+      <div class="f-name-2 col-xl-4  float-start  ">
+        <p> <b>PNQ</b> Pune </p>
+      <p class="date">one way  </p>
+      </div>
+      <div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+      </div>
+  
+  
+  
+      <div class="col-xl-9 routes my-2  ">
+        <div class="flogo col-xl-1 float-start "><img src="images/AK.gif " alt=""></div>
+        <div class="f-name-1 col-xl-5  float-start ">
+        <p> <b>PNQ</b> Pune </p>
+        <p class="date">01 jan 2024 </p>
+        <img class="plane" src="images/airplane.png" alt="">
+        </div>
+        <div class="f-name-2 col-xl-4  float-start  ">
+          <p> <b>PNQ</b> Pune </p>
+        <p class="date">one way  </p>
+        </div>
+        <div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+        </div>
+  
+  
+  
+  
+        <div class="col-xl-9 routes my-2  ">
+          <div class="flogo col-xl-1 float-start "><img src="images/EY.gif " alt=""></div>
+          <div class="f-name-1 col-xl-5  float-start ">
+          <p> <b>PNQ</b> Pune </p>
+          <p class="date">01 jan 2024 </p>
+          <img class="plane" src="images/airplane.png" alt="">
+          </div>
+          <div class="f-name-2 col-xl-4  float-start  ">
+            <p> <b>PNQ</b> Pune </p>
+          <p class="date">one way  </p>
+          </div>
+          <div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+          </div>
+  
+        </div>
+
+
+      </div>
+
+<div class="col-xl-12 routes-content">
+  <h6> *All Fares are quoted in INR</h6>
+  <p>
+    Last updated on 12/2/2023 12:00:00 AM , the fares mentioned above are for flight tickets and inclusive of fuel surcharges,<span> user agreement</span>.
+     Based on historical data, these fares are subject to change without prior notice and cannot be guaranteed at the time of booking. 
+     Kindly go through our <span> terms and conditions</span> before booking.
+  </p>
+</div>
+
+   
+  </div>
+</div>
+</section>
+
+
+<section class="form-banner">
+  <div class="container">
+    <div class="row">
+<div class="col-xl-6 " style="padding: 0px;" >
+
+<div class="form-box1">
+  <h6> Make Travel Happen with Our Personalised Flight Search !</h6>
+  <p>   Sign up to join millions of happy travellers and spot all the latest offers.</p>
+<div>
+<img src="images/news-ltr2.png" alt="">
+<form action="" class="float-end d-flex  " >
+  <div class="email-box2"><input type="email" placeholder="Enter email"></div>
+  <button type="submit" class="subs-btn" >Subscribe</button>
+</form>
+</div>
+</div>
+
+</div>
+
+<div class="col-xl-6" style="padding: 0px;" >
+
+<div class="slider-bg"    >
+
+  <div id="formSlider" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#formSlider" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#formSlider" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#formSlider" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="slider-content ">
+<h5> Best Days Of The Month To Book Flights</h5>
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum vero dolorum, aperiam velit porro impedit reprehenderit, illo accusantium expedita reiciendis soluta? Cum eligendi, alias recusandae expedita quisquam est optio temporibus necessitatibus facilis ipsam voluptate saepe sunt nihil dolore! Fugit, ullam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor harum ipsum sapiente hic quidem adipisci quae saepe, pariatur minima omnis nihil, tenetur facilis ipsam quam provident quaerat, repudiandae nostrum quasi.</p>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <div class="slider-content ">
+          <h5> Best Days Of The Month To Book Flights</h5>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum vero dolorum, aperiam velit porro impedit reprehenderit, illo accusantium expedita reiciendis soluta? Cum eligendi, alias recusandae expedita quisquam est optio temporibus necessitatibus facilis ipsam voluptate saepe sunt nihil dolore! Fugit, ullam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor harum ipsum sapiente hic quidem adipisci quae saepe, pariatur minima omnis nihil, tenetur facilis ipsam quam provident quaerat, repudiandae nostrum quasi.</p>
+                  </div>
+      </div>
+      <div class="carousel-item">
+        <div class="slider-content ">
+          <h5> Best Days Of The Month To Book Flights</h5>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum vero dolorum, aperiam velit porro impedit reprehenderit, illo accusantium expedita reiciendis soluta? Cum eligendi, alias recusandae expedita quisquam est optio temporibus necessitatibus facilis ipsam voluptate saepe sunt nihil dolore! Fugit, ullam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor harum ipsum sapiente hic quidem adipisci quae saepe, pariatur minima omnis nihil, tenetur facilis ipsam quam provident quaerat, repudiandae nostrum quasi.</p>
+                  </div>
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  
+
+
+</div>
+
+</div>
+
+
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--******************** footer starts here *********************************8-->
+
+<footer class="full-width ">
+    <div class="container">
+        <div class="row">
+                <ul class="d-flex flex-wrap ">
+                  
+                  <li class="mx-0" ><p>Comapany Information</p>  </li>
+
+                  <li><p> Top destination</p> </li>
+                  <li><p> Popular Flight Route</p>  </li>
+                  <li><p> popular Airline </p></li>
+                  <li><p> Additional Links</p> </li>
+                  
+                </ul>
+              
+          
+
+            <div class="content">
+              <div class="container">
+              <p> 
+                LFF endeavours to make travel simple and accessible to all. We are a one-stop shop that is committed to creating a niche where luxury and affordability can co-exist. Bringing the best from the business, we offer the most cost-effective travel services that don’t compromise your comfort.
+Based in the United States, LFF was born with an idea to empower global travelers. To accommodate the travelers with the lowest flight fares, we have associated with the best airlines in the industry.
+              </p>
+              <p>
+                We aim to facilitate our 7 million families with the cheapest flight fare and give them the best customer experience while booking with us. We help millions of travelers to make confident decisions. We are dedicated to providing you with comprehensive travel services that include the largest selection of flights to connect you with the world conveniently. 
+              </p>
+
+              <p class="mt-3">more....</p>
+
+
+<div class="footer-link">
+  <ul class="d-flex justify-content-between flex-wrap">
+    <li><i class="fa fa-check" aria-hidden="true"></i>Home   </li>
+    <li><i class="fa fa-check" aria-hidden="true"></i>Our Blog   </li>
+    <li><i class="fa fa-check" aria-hidden="true"></i>Flight   </li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> Contact Us   </li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> Flights Deals & Coupons  </li>
+    <li><i class="fa fa-check" aria-hidden="true"></i>Privacy Policy   </li>
+    <li><i class="fa fa-check" aria-hidden="true"></i>Terms & Conditions   </li>
+    <li><i class="fa fa-check" aria-hidden="true"></i>Cookie Policy  </li>
+   
+  </ul>
+</div>
+
+
+
+            </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="social mt-1  ">
+      <div class="container">
+      <div class="row">
+        <div class="col-xl-12 ">
+          <div class="col-xl-4 float-start d-flex justify-content-start flex-wrap">
+            <div><img src="images/d2.jpg" alt=""></div>
+            <div><img src="images/dc2.jpg" alt=""></div>
+            <div><img src="images/j2.jpg" alt=""></div>
+            <div><img src="images/v2.jpg" alt=""></div>
+            <div><img src="images/ae2.jpg" alt=""></div>
+          </div>
+     
+    
+          <div class=" float-start  col-xl-3">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-pinterest" aria-hidden="true"></i>
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+          </div>
+    <p class=" float-end  col-xl-4 mt-2">
+      
+    
+    Developed & Marketed By <span class="text-primary">Travel Portal Solution</span>
+    
+    </p>
+          
+        </div>
+      </div>
+    </div>
+    </div>
+</footer>
+
+
+<!--******************* Footer ends here **********************-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="Script.js"></script> 
+
+<script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoplay:true,
+    autoplayTimeout:2000, 
+    dots: false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:7
+        }
+    }
+})
+
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+</html>
