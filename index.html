@@ -60,72 +60,128 @@
 
 
     <!--*************************************** booking table********************************** -->
-        <div class="col-xl-12 booking-box">
+        <div class=" booking-box">
 
- 
-<button class="tablink " onclick="openPage('Home', this,)" id="defaultOpen" ><i class="fa fa-plane mx-1" aria-hidden="true"></i>Flights</button>
-<button class="tablink " onclick="openPage('News', this, )" > Flights <i class="fa fa-plus mx-1 " aria-hidden="true"></i> Hotels </button>
-<button class="tablink " onclick="openPage('Contact', this,)"><i class="fa fa-bed mx-1 " aria-hidden="true"></i>Hotel</button>
-<button class="tablink " onclick="openPage('About', this, )"><i class="fa fa-car mx-1 " aria-hidden="true"></i> Cars</button>
-
-<div id="Home" class="tabcontent">
-
-  <form action="" class="col-xl-12 ">
+<div class="d-flex nav nav-pills  justify-content-center "  >
+<div class="btns nav-item "><p class="nav-link active " data-bs-toggle="pill" href="#trip1" > Round Trip</p></div>
+<div class="btns nav-item "><p class="nav-link" data-bs-toggle="pill" href="#trip2" > One Way</p></div>
+<div class="btns nav-item "><p class="nav-link" data-bs-toggle="pill" href="#trip3" > Multi City</p></div>
+</div> 
 
 
-    <div class=" col-xl-6 my-2 float-start  ">
-    <label for=""> Your Name </label>
-    <input type="text" class="col-xl-11 " >
-  </div>
-    <div class=" col-xl-6 my-2 float-start  ">
-    <label for=""> Your Email </label>
-    <input type="text" class="col-xl-11 " >
-  </div>
+<div class="tab-content">
+  <div class="tab-pane container active" id="trip1">
 
-
-    <div class=" col-xl-6 my-2 float-start  ">
-    <label for=""> Your Email </label>
-    <input type="text" class="col-xl-11 " >
-  </div>
-    <div class=" col-xl-6 my-2 float-start  ">
-    <label for=""> Your Email </label>
-    <input type="text" class="col-xl-11 " >
-  </div>
-    <div class=" col-xl-12 my-2 float-start  ">
-    <label for=""> Subject</label>
-    <input type="text" class="col-xl-12 " >
-  </div>
- 
-
-  <button type="submit" class="btn  form-btn col-xl-12">Submit</button>
-
-
-  </form>
-
+  <div class=" d-flex justify-content-around ">
+<div class="">
+  <label for="">Orgin</label> 
+  <div class="s-tbox">  <input type="text" placeholder="Select Destination" > </div>
+</div>
+<div class="exchange" >
+  <i class="fa fa-exchange" aria-hidden="true"></i>
+</div>
+<div class=""  >
+  <label for="">Destination</label> 
+  <div class="s-tbox" >  <input type="text" placeholder="Select Destination" > </div>
+</div>
+<div class=""  >
+  <label for="">Depart Date</label> 
+  <div class="s-tbox d-box ">  <input type="date" placeholder="Select Destination" > </div>
+</div>
+<div class=""  >
+  <label for="">Return Date</label> 
+  <div class="s-tbox d-box ">  <input type="date" placeholder="Select Destination" > </div>
+</div>
+<div class=""  >
+  <label for="">Passengers</label> 
+  <div class="s-tbox "> <input type="text" placeholder="1 Travel Economy" ><i class=" mx-2 fa fa-angle-down" aria-hidden="true"></i>  </div> 
+</div>
+<div class="sn-btn">
+  Search Now
+</div>
 
 </div>
 
-<div id="News" class="tabcontent">
-  <h3>News</h3>
-  <p>Some news this fine day!</p> 
+  </div>
+
+
+
+  <div class="tab-pane container fade" id="trip2">
+
+  <div class=" d-flex justify-content-around ">
+<div class="">
+  <label for="">Orgin</label> 
+  <div class="s-tbox">  <input type="text" placeholder="Select Destination" > </div>
+</div>
+<div class="exchange" >
+  <i class="fa fa-exchange" aria-hidden="true"></i>
+</div>
+<div class=""  >
+  <label for="">Destination</label> 
+  <div class="s-tbox" >  <input type="text" placeholder="Select Destination" > </div>
+</div>
+<div class=""  >
+  <label for="">Depart Date</label> 
+  <div class="s-tbox d-box ">  <input type="date" placeholder="Select Destination" > </div>
+</div>
+<div class=""  >
+  <label for="">Return Date</label> 
+  <div class="s-tbox d-box ">  <input type="date" placeholder="Select Destination" > </div>
+</div>
+<div class=""  >
+  <label for="">Passengers</label> 
+  <div class="s-tbox "> <input type="text" placeholder="1 Travel Economy" ><i class=" mx-2 fa fa-angle-down" aria-hidden="true"></i>  </div> 
+</div>
+<div class="sn-btn">
+  Search Now
 </div>
 
-<div id="Contact" class="tabcontent">
-  <h3>Contact</h3>
-  <p>Get in touch, or swing by for a cup of coffee.</p>
 </div>
 
-<div id="About" class="tabcontent">
-  <h3>About</h3>
-  <p>Who we are and what we do.</p>
-</div>
-         
+  </div>
 
+
+  <div class="tab-pane container fade" id="trip3">
+   <div class=" d-flex justify-content-around ">
+<div class="">
+  <label for="">Orgin</label> 
+  <div class="s-tbox">  <input type="text" placeholder="Select Destination" > </div>
+</div>
+<div class="exchange" >
+  <i class="fa fa-exchange" aria-hidden="true"></i>
+</div>
+<div class=""  >
+  <label for="">Destination</label> 
+  <div class="s-tbox" >  <input type="text" placeholder="Select Destination" > </div>
+</div>
+<div class=""  >
+  <label for="">Depart Date</label> 
+  <div class="s-tbox d-box ">  <input type="date" placeholder="Select Destination" > </div>
+</div>
+<div class=""  >
+  <label for="">Return Date</label> 
+  <div class="s-tbox d-box ">  <input type="date" placeholder="Select Destination" > </div>
+</div>
+<div class=""  >
+  <label for="">Passengers</label> 
+  <div class="s-tbox "> <input type="text" placeholder="1 Travel Economy" ><i class=" mx-2 fa fa-angle-down" aria-hidden="true"></i>  </div> 
+</div>
+<div class="sn-btn">
+  Search Now
+</div>
+
+</div>
+
+
+  </div>
+
+
+</div>
 
 
           
         </div>
- <!--*************************************** booking table********************************** -->
+
     </div>
 
 </div>

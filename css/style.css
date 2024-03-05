@@ -102,25 +102,84 @@ background-position: center;
     margin: 0 0 -4px 0;
 }
 
-.booking-box{
-    border: 1px solid white;
-    border-radius: 15px ;
-    margin: 10px auto;
-    /* height: 300px ; */
-    
+.booking-box .tab-content {
+    background-color: #FFFFFF;
+    padding: 26px 10px;
+    border-radius: 12px;
 }
 
- /* Style the tab content (and add height:100% for full page content) */
-  .tabcontent {
-    color: white;
-    display: none;
-    padding: 100px 20px;
-    height: 100%;
-  }
-  
+
+.booking-box .btns{
+    background-color: #203970;
+    margin:  0 2px;
+}
+
+.booking-box .btns p{
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+    padding: 15px 12px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.booking-box .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background-color: #FFFFFF;
+    color: #203970;
+    border-radius: 0px;
+}
 
 
+.booking-box label{
+    font-size: 16px;
+font-weight:normal ;
+font-family: "Roboto", Sans-serif;
+margin: 0 0 8px 0;
+}
+.booking-box{
+    position: relative;
+}
+.booking-box .exchange {
+    background-color: #203970;
+    width: 32px;
+    height: 31px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    padding: 7px 0 0 0;
+    position: absolute;
+    left: 281px;
+    top: 103px;
+}
+.booking-box .s-tbox{
+    border: 1px solid #ccc;
+    background-color: #ffff;
+    padding: 10px 10px ;  
+    width: 247px;
+}
 
+.booking-box .d-box{
+    width: 147px;
+}
+
+.booking-box .s-tbox input{
+    outline: none;
+    border: 0px ;
+}
+
+
+.booking-box .sn-btn{
+    color: #FFFFFF;
+    background-color: #203970;
+    border-radius: 70%;
+    width: 117px;
+    height: 70px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 26px 0 0 0;
+    letter-spacing: -1px;
+}
 
 
 /* table  */
