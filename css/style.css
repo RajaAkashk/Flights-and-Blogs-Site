@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 nav{
-    padding: 10px 0 ;
+    padding: 2px 0 ;
 }
 
 nav .menu{
@@ -80,7 +80,7 @@ nav .menu li a:hover{
 
 .menu li .num{
     background-color: #203970;
-    padding: 32px 10px;
+    padding: 25px 10px;
     color: #fff;
     font-size: 14px;
 }
@@ -802,7 +802,9 @@ line-break: auto;
 
 }
 
-
+.email-inpt .btn:hover , .email-inpt .btn:focus{
+    color: #FFFFFF;
+}
 
 /******************************************Contact page css **********************************************/
 
@@ -1207,13 +1209,14 @@ color: #203970 !important;
 
 footer{
     background-image:linear-gradient(rgb(48, 65, 111) 23%, rgb(68, 157, 213) 100%);
+    padding: 17px 0 0 0;
 }
 
 
 footer  li{
     list-style: none;
     margin: 0 0 0px 15px  ;
-    padding: 24px 0 19px 0;
+    padding: 0px 0 19px 0;
 }
 
 
@@ -1248,25 +1251,178 @@ padding: 24px 0 0 0;
 
 .social{
     background-color: #D9EBF7;
-    padding: 5px;
-    
-    
+    padding: 7px 0 0 0 ;   
 }
+
+.social-icons{
+display: flex;
+justify-content: end;
+}
+
 .social img{
     border-radius: 11px ;
     width: 75px;
-    margin: 4px 0 0 0 ;
+    margin: 4px 10px 0 0;
     padding: 0;
 }
 
 .social i{
     padding: 10px;
     font-size: 20px;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     opacity: 0.8;
     border-radius: 10px ;
 }
 
 .social p{
     margin: 4px 0 0 0;
+}
+
+
+
+@media only screen and (max-width: 1024px){
+
+    .abt-boxes .box1, .abt-boxes .box2, .abt-boxes .box3 {
+        height: 51%;
+    width: 44%;
+      }
+      .abt-boxes .box3 {
+        margin: 42px 0 0 0;
+      }
+      
+      .email-inpt input {
+        font-size: 18px;
+        height: 42px;
+        margin: 0px;
+      }
+
+   .email-box{
+    padding: 0px;
+   }
+
+   .email-inpt .btn {
+    font-size: 18px;
+    height: 42px;
+    padding: 0;
+  }
+
+
+      
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+
+    .nav2 i{
+        font-size: 20px;
+    padding: 19px 0 0 0 ;
+    color: #203970;
+    }
+    .nav2  img{
+        margin: 0 auto ;
+        text-align: center;
+    }
+
+.offcanvas.show{
+    width: 82%;
+}
+
+.offcanvas .btn-close{
+    position: absolute;
+    right: -32px;
+    top: 20px;
+    color: #000 !important;
+    background-color: #ffffff !important;
+    border-radius: 50%;
+    width: 7px !important;
+    height: 7px;
+    font-size: 12px;
+ 
+}
+
+.logo-p{
+    text-align: center;
+}
+
+.p-logos{
+    border-top: 2px solid #17a3d5;
+    padding: 0 0 0 24%;
+    height: 40px;
+    margin: 0 0 50px 0;
+}
+
+.p-logos li{
+ margin: 0 4px;
+ text-align: center;
+ float: left;
+}
+
+.p-logos li i{
+    font-size: 15px;
+}
+
+.menus li a{
+    color: #000;
+    font-family: "Roboto", Sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.menus li a:hover , .menus li a:focus{
+    color: #203970 !important;
+}
+
+.menus li{
+    border-bottom: 1px solid #ccc;
+margin: 21px 0  !important;
+padding:  5px 0 0 0 !important; 
+}
+
+
+.abt-company img{
+    width: 84%;
+}
+
+.abt-boxes .box1 , .abt-boxes .box2 , .abt-boxes .box3 {
+    height: 34%;
+    margin: 0 0 25px 0;
+}
+
+
+.number {
+    margin: 10px 0 20px 121px;
+  }
+
+  footer li {
+    margin: 0 13px 0 0;
+  }
+  .social img {
+    width: 65px;
+  }
+  .social-icons{
+    justify-content: start;
+    }
+
+    .email-inpt {
+        height: 100%;
+        padding: 20px 0;
+    }
+
+
+    .email-inpt input ,.email-inpt .btn {
+        font-size: 16px;
+        height: 40px;
+      }
+
+
+
+
+
+
+
+
 }
