@@ -14,7 +14,7 @@
  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 </head>
 <body>
@@ -46,55 +46,30 @@
 
 
 
+<div class=" nav2 d-block d-xl-none  ">
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="w3mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+  <a href="index.html" class="w3-bar-item w3-button ">Home </a>
+  <a href="about.html" class="w3-bar-item w3-button">About Us </a>
+  <a href="blogs.html" class="w3-bar-item w3-button"> Blogs </a>
+  <a href="contact.html" class="w3-bar-item w3-button">Contact Us </a>
+  <a href="tell:99944545151" class="w3-bar-item w3-button">+91 999945455 </a>
+</div>
 
-
-    <div class=" nav2 d-block d-xl-none d-md-none ">
-      <div class="container">
-     <div class="row   ">
-  <div class="col-1" > <i data-bs-toggle="offcanvas" data-bs-target="#demo" class="fa fa-bars" aria-hidden="true"></i></div>
-  <div class="col-3"> <img src="images/lowest-logo.png" alt=""> </div>
-  <div class="offcanvas offcanvas-start" id="demo">
-      <div class="offcanvas-header">
-        <h1 class="offcanvas-title"></h1>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-      </div>
-      <div class="offcanvas-body">    
-  <div class="logo-p"><img src="images/lowest-logo.png" alt=""> </div>
-  <div class="p-logos">
-      <ul class="">
-          <li><i class="fa fa-facebook" aria-hidden="true"></i> </li>
-          <li><i class="fa fa-twitter" aria-hidden="true"></i> </li>
-          <li> <i class="fa fa-instagram" aria-hidden="true"></i></li>
-          <li><i class="fa fa-pinterest" aria-hidden="true"></i> </li>
-          <li><i class="fa fa-linkedin-square" aria-hidden="true"></i> </li>
-          <li> <i class="fa fa-youtube-play" aria-hidden="true"></i></li>
-      </ul>
+<!-- Page Content -->
+<div class="w3-white d-flex">
+  <button class="w3-button col-1 w3-white w3-xlarge" onclick="w3_open()">☰</button>
+  <div class="w3-container col-3 ">
+    <img src="images/lowest-logo.png" alt=""> 
   </div>
-  <div class="menus">
-  <ul>
-      <li><a href="#">Home  </a> </li>
-      <li><a href="#"> about us </a> </li>
-      <li><a href="#">blogs  </a> </li>
-      <li><a href="#"> contact us </a> </li>
-      <li><a href="#"> +91 999945455 </a> </li> 
-  </ul>
-  </div>
-      </div>
-    </div>
-     </div>         
-      </div>
-  </div>
-  
-  
-  
-
+</div>
+</div>
 
 
 <div class="banner p-5 ">
-
 <div class="container">
     <div class="row ">
-
         <div class="col-xl-7 banner-text ">
             <h1 class="text-white ">cheap flights</h1>
             <p class="text-white ">Grab the best deal and reserve the cheapest flight fares for yourself</p>
@@ -105,7 +80,7 @@
 
 
     <!--*************************************** booking table********************************** -->
-        <div class=" booking-box">
+        <div class="booking-box">
 
 <div class="d-flex nav nav-pills  justify-content-center "  >
 <div class="btns nav-item "><p class="nav-link active " data-bs-toggle="pill" href="#trip1" > Round Trip</p></div>
@@ -117,105 +92,100 @@
 <div class="tab-content">
   <div class="tab-pane container active" id="trip1">
 
-  <div class=" d-flex justify-content-around ">
-<div class="">
-  <label for="">Orgin</label> 
-  <div class="s-tbox">  <input type="text" placeholder="Select Destination" > </div>
-</div>
-<div class="exchange" >
-  <i class="fa fa-exchange" aria-hidden="true"></i>
-</div>
-<div class=""  >
-  <label for="">Destination</label> 
-  <div class="s-tbox" >  <input type="text" placeholder="Select Destination" > </div>
-</div>
-<div class=""  >
-  <label for="">Depart Date</label> 
-  <div class="s-tbox d-box ">  <input type="date" placeholder="Select Destination" > </div>
-</div>
-<div class=""  >
-  <label for="">Return Date</label> 
-  <div class="s-tbox d-box ">  <input type="date" placeholder="Select Destination" > </div>
-</div>
-<div class=""  >
-  <label for="">Passengers</label> 
-  <div class="s-tbox "> <input type="text" placeholder="1 Travel Economy" ><i class=" mx-2 fa fa-angle-down" aria-hidden="true"></i>  </div> 
-</div>
-<div class="sn-btn">
-  Search Now
-</div>
-
-</div>
+    <div class="booking-table">
+      <div class="mt-md-2">
+        <label for="">Orgin</label> 
+        <div class="s-tbox">  <input type="text" placeholder="Select Destination" > </div>
+      </div>
+      <div class="exchange" >
+        <i class="fa fa-exchange" aria-hidden="true"></i>
+      </div>
+      <div class="mt-md-2">
+        <label for="">Destination</label> 
+        <div class="s-tbox" >  <input type="text" placeholder="Select Destination" > </div>
+      </div>
+      <div class="mt-md-2">
+        <label for="">Depart Date</label> 
+        <div class="s-tbox d-box ">  <input type="date" placeholder="Select Destination" > </div>
+      </div>
+      <div class="mt-md-2">
+        <label for="">Return Date</label> 
+        <div class="s-tbox d-box ">  <input type="date" placeholder="Select Destination" > </div>
+      </div>
+      <div class="mt-md-2">
+        <label for="">Passengers</label> 
+        <div class="s-tbox "> <input type="text" placeholder="1 Travel Economy" ><i class=" mx-2 fa fa-angle-down" aria-hidden="true"></i>  </div> 
+      </div>
+      <div class="sn-btn">
+        Search Now
+      </div>
+      </div>
 
   </div>
 
 
 
   <div class="tab-pane container fade" id="trip2">
-
-  <div class=" d-flex justify-content-around ">
-<div class="">
-  <label for="">Orgin</label> 
-  <div class="s-tbox">  <input type="text" placeholder="Select Destination" > </div>
-</div>
-<div class="exchange" >
-  <i class="fa fa-exchange" aria-hidden="true"></i>
-</div>
-<div class=""  >
-  <label for="">Destination</label> 
-  <div class="s-tbox" >  <input type="text" placeholder="Select Destination" > </div>
-</div>
-<div class=""  >
-  <label for="">Depart Date</label> 
-  <div class="s-tbox d-box ">  <input type="date" placeholder="Select Destination" > </div>
-</div>
-<div class=""  >
-  <label for="">Return Date</label> 
-  <div class="s-tbox d-box ">  <input type="date" placeholder="Select Destination" > </div>
-</div>
-<div class=""  >
-  <label for="">Passengers</label> 
-  <div class="s-tbox "> <input type="text" placeholder="1 Travel Economy" ><i class=" mx-2 fa fa-angle-down" aria-hidden="true"></i>  </div> 
-</div>
-<div class="sn-btn">
-  Search Now
-</div>
-
-</div>
-
+    <div class="booking-table">
+      <div class="mt-md-2">
+        <label for="">Orgin</label> 
+        <div class="s-tbox">  <input type="text" placeholder="Select Destination" > </div>
+      </div>
+      <div class="exchange" >
+        <i class="fa fa-exchange" aria-hidden="true"></i>
+      </div>
+      <div class="mt-md-2">
+        <label for="">Destination</label> 
+        <div class="s-tbox" >  <input type="text" placeholder="Select Destination" > </div>
+      </div>
+      <div class="mt-md-2">
+        <label for="">Depart Date</label> 
+        <div class="s-tbox d-box ">  <input type="date" placeholder="Select Destination" > </div>
+      </div>
+      <div class="mt-md-2">
+        <label for="">Return Date</label> 
+        <div class="s-tbox d-box ">  <input type="date" placeholder="Select Destination" > </div>
+      </div>
+      <div class="mt-md-2">
+        <label for="">Passengers</label> 
+        <div class="s-tbox "> <input type="text" placeholder="1 Travel Economy" ><i class=" mx-2 fa fa-angle-down" aria-hidden="true"></i>  </div> 
+      </div>
+      <div class="sn-btn">
+        Search Now
+      </div>
+      </div>
   </div>
 
 
   <div class="tab-pane container fade" id="trip3">
-   <div class=" d-flex justify-content-around ">
-<div class="">
-  <label for="">Orgin</label> 
-  <div class="s-tbox">  <input type="text" placeholder="Select Destination" > </div>
-</div>
-<div class="exchange" >
-  <i class="fa fa-exchange" aria-hidden="true"></i>
-</div>
-<div class=""  >
-  <label for="">Destination</label> 
-  <div class="s-tbox" >  <input type="text" placeholder="Select Destination" > </div>
-</div>
-<div class=""  >
-  <label for="">Depart Date</label> 
-  <div class="s-tbox d-box ">  <input type="date" placeholder="Select Destination" > </div>
-</div>
-<div class=""  >
-  <label for="">Return Date</label> 
-  <div class="s-tbox d-box ">  <input type="date" placeholder="Select Destination" > </div>
-</div>
-<div class=""  >
-  <label for="">Passengers</label> 
-  <div class="s-tbox "> <input type="text" placeholder="1 Travel Economy" ><i class=" mx-2 fa fa-angle-down" aria-hidden="true"></i>  </div> 
-</div>
-<div class="sn-btn">
-  Search Now
-</div>
-
-</div>
+    <div class="booking-table">
+      <div class="mt-md-2">
+        <label for="">Orgin</label> 
+        <div class="s-tbox">  <input type="text" placeholder="Select Destination" > </div>
+      </div>
+      <div class="exchange" >
+        <i class="fa fa-exchange" aria-hidden="true"></i>
+      </div>
+      <div class="mt-md-2">
+        <label for="">Destination</label> 
+        <div class="s-tbox" >  <input type="text" placeholder="Select Destination" > </div>
+      </div>
+      <div class="mt-md-2">
+        <label for="">Depart Date</label> 
+        <div class="s-tbox d-box ">  <input type="date" placeholder="Select Destination" > </div>
+      </div>
+      <div class="mt-md-2">
+        <label for="">Return Date</label> 
+        <div class="s-tbox d-box ">  <input type="date" placeholder="Select Destination" > </div>
+      </div>
+      <div class="mt-md-2">
+        <label for="">Passengers</label> 
+        <div class="s-tbox "> <input type="text" placeholder="1 Travel Economy" ><i class=" mx-2 fa fa-angle-down" aria-hidden="true"></i>  </div> 
+      </div>
+      <div class="sn-btn">
+        Search Now
+      </div>
+      </div>
 
 
   </div>
@@ -293,7 +263,7 @@
 
 <div class="features-box mt-4 col-xl-12">
 
-<div class="man float-start col-xl-5 ">
+<div class="man float-start col-xl-5 d-xl-block d-none">
     <img src="images/lowest-man.png" alt="">
 </div>
 
@@ -303,7 +273,7 @@
 <div class="boxes float-end  d-flex justify-content-around flex-wrap  col-xl-7  ">
  
 
-<div class="col-xl-6  ">
+<div class="col-xl-6 col-md-6 ">
        <div class="box" style=" background-image:linear-gradient(rgb(48, 65, 111) 23%, rgb(68, 157, 213) 100%);">
         <div class="imgage" style="  border: 3px solid #ffffff; " ><i style="color: #ffffff;"  class="fa fa-lightbulb-o fa-1x " aria-hidden="true"></i>
 </div>
@@ -326,7 +296,7 @@
 
       </div>
 
-      <div class="col-xl-6 ">
+      <div class="col-xl-6 col-md-6 ">
 
        <div class=" box  " >
         <div class="imgage  "><i class="fa fa-lightbulb-o fa-1x " aria-hidden="true"></i>
@@ -415,16 +385,16 @@ With customer satisfaction being our ultimate goal, our support team is on hand 
 
 <div class=" pt-4  d-flex flex-wrap justify-content-around ">
    
-    <div class="col-xl-3 find-points ">   
+    <div class="col-xl-3 col-md-4 find-points ">   
  <div class="point-logo"> </div>
         <h5>
             Be Flexible with Your Date </h5>       
-            <p>Getting a cheap flight fare is much easier than you think if you are flexible with your date. The price of the flight tickets depends to a great extent on the date and time of your journey. Avoid holidays and weekends and book your flight during weekdays to get maximum deals on cheap flight tickets. 
+            <p>Getting a cheap flight fare is much easier than you think if you are flexible with your date. The price of the flight tickets depends to a great extent on the date and time of your journey.
             </p>
     </div>
 
 
-    <div class="col-xl-3 find-points">
+    <div class="col-xl-3 col-md-4 find-points">
         <div class="point-logo"> </div>
                <h5>
                 Book in Advance  </h5>
@@ -434,7 +404,7 @@ With customer satisfaction being our ultimate goal, our support team is on hand 
            </div>
 
 
-           <div class="col-xl-3 find-points">
+           <div class="col-xl-3 col-md-4 find-points">
             <div class="point-logo"> </div>
                    <h5> Use Different Currency </h5>
                    
@@ -443,7 +413,7 @@ With customer satisfaction being our ultimate goal, our support team is on hand 
                </div>
 
                
-               <div class="col-xl-3 find-points">
+               <div class="col-xl-3 col-md-4 find-points">
                 <div class="point-logo"> </div>
                        <h5>
                         Join a Frequent Flyer Program  </h5>
@@ -453,7 +423,7 @@ With customer satisfaction being our ultimate goal, our support team is on hand 
                            </p>
                    </div>
 
-           <div class="col-xl-3 find-points">
+           <div class="col-xl-3 col-md-4 find-points">
             <div class="point-logo"> </div>
                    <h5>
                        
@@ -467,11 +437,9 @@ Book non-refundable air tickets  </h5>
 
 
 
-               <div class="col-xl-3 find-points">
+               <div class="col-xl-3 col-md-4 find-points">
                 <div class="point-logo"> </div>
-                       <h5>
-                          
-Go for Budget Airlines </h5>
+                       <h5> Go for Budget Airlines </h5>
                        
                            <p>Budget airlines offer cheaper rates because they cut out on services like beverages, food, entertainment etc. Although they do not offer luxuries, they ensure a satisfactory flying experience. 
                            </p>
@@ -486,173 +454,173 @@ Go for Budget Airlines </h5>
 
 
 
-<section class="route-box full-width  ">
+<section class="route-box">
 <div class="container">
   <div class="row">
    
    <h5>POPULAR ROUTES</h5>
 
-      <div class="col-xl-6  d-flex flex-wrap ">
+      <div class="col-xl-6 col-md-12  d-flex flex-wrap ">
 
 
-<div class="col-xl-9 routes my-2  ">
+<div class="col-xl-9 col-md-8 routes my-2  ">
 <div class="flogo col-xl-1 float-start "><img src="images/SG.gif" alt=""></div>
-<div class="f-name-1 col-xl-5  float-start ">
+<div class="f-name-1 col-xl-5 col-md-6 float-start ">
 <p> <b>PNQ</b> Pune </p>
 <p class="date">01 jan 2024 </p>
 <img class="plane" src="images/airplane.png" alt="">
 </div>
-<div class="f-name-2 col-xl-4  float-start  ">
+<div class="f-name-2 col-xl-4 col-md-4  float-start  ">
   <p> <b>PNQ</b> Pune </p>
 <p class="date">one way  </p>
 </div>
-<div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+<div class="fee col-xl-2 col-md-3  float-end  "><p>₹2000</p> </div>
 </div>
 
 
-<div class="col-xl-9 routes my-2  ">
-  <div class="flogo col-xl-1 float-start "><img src="images/6E.gif " alt=""></div>
-  <div class="f-name-1 col-xl-5  float-start ">
+<div class="col-xl-9 col-md-8 routes my-2  ">
+  <div class="flogo col-xl-1  float-start "><img src="images/6E.gif " alt=""></div>
+  <div class="f-name-1 col-xl-5  col-md-6 float-start ">
   <p> <b>PNQ</b> Pune </p>
   <p class="date">01 jan 2024 </p>
   <img class="plane" src="images/airplane.png" alt="">
   </div>
-  <div class="f-name-2 col-xl-4  float-start  ">
+  <div class="f-name-2 col-xl-4 col-md-4 float-start  ">
     <p> <b>PNQ</b> Pune </p>
   <p class="date">one way  </p>
   </div>
-  <div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+  <div class="fee col-xl-2 col-md-3   float-end  "><p>₹2000</p> </div>
   </div>
 
 
-  <div class="col-xl-9 routes my-2  ">
+  <div class="col-xl-9 col-md-8 routes my-2  ">
     <div class="flogo col-xl-1 float-start "><img src="images/FD.gif " alt=""></div>
-    <div class="f-name-1 col-xl-5  float-start ">
+    <div class="f-name-1 col-xl-5 col-md-6 float-start ">
     <p> <b>PNQ</b> Pune </p>
     <p class="date">01 jan 2024 </p>
     <img class="plane" src="images/airplane.png" alt="">
     </div>
-    <div class="f-name-2 col-xl-4  float-start  ">
+    <div class="f-name-2 col-xl-4 col-md-4  float-start  ">
       <p> <b>PNQ</b> Pune </p>
     <p class="date">one way  </p>
     </div>
-    <div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+    <div class="fee col-xl-2 col-md-3 float-end  "><p>₹2000</p> </div>
     </div>
 
 
 
-    <div class="col-xl-9 routes my-2  ">
+    <div class="col-xl-9 col-md-8 routes my-2  ">
       <div class="flogo col-xl-1 float-start "><img src="images/AK.gif " alt=""></div>
-      <div class="f-name-1 col-xl-5  float-start ">
+      <div class="f-name-1 col-xl-5 col-md-6  float-start ">
       <p> <b>PNQ</b> Pune </p>
       <p class="date">01 jan 2024 </p>
       <img class="plane" src="images/airplane.png" alt="">
       </div>
-      <div class="f-name-2 col-xl-4  float-start  ">
+      <div class="f-name-2 col-xl-4 col-md-4  float-start  ">
         <p> <b>PNQ</b> Pune </p>
       <p class="date">one way  </p>
       </div>
-      <div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+      <div class="fee col-xl-2 col-md-3 float-end  "><p>₹2000</p> </div>
       </div>
 
 
 
 
-      <div class="col-xl-9 routes my-2  ">
+      <div class="col-xl-9 col-md-8 routes my-2  ">
         <div class="flogo col-xl-1 float-start "><img src="images/EY.gif " alt=""></div>
-        <div class="f-name-1 col-xl-5  float-start ">
+        <div class="f-name-1 col-xl-5 col-md-6  float-start ">
         <p> <b>PNQ</b> Pune </p>
         <p class="date">01 jan 2024 </p>
         <img class="plane" src="images/airplane.png" alt="">
         </div>
-        <div class="f-name-2 col-xl-4  float-start  ">
+        <div class="f-name-2 col-xl-4 col-md-4 float-start  ">
           <p> <b>PNQ</b> Pune </p>
         <p class="date">one way  </p>
         </div>
-        <div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+        <div class="fee col-xl-2 col-md-3 float-end  "><p>₹2000</p> </div>
         </div>
 
       </div>
 
 
-      <div class="col-xl-6 float-end d-flex flex-wrap ">
+      <div class="col-xl-6 col-md-12 float-end d-flex flex-wrap ">
 
 
-<div class="col-xl-9 routes my-2  ">
+<div class="col-xl-9 col-md-8 routes my-2  ">
   <div class="flogo col-xl-1 float-start "><img src="images/SG.gif" alt=""></div>
-  <div class="f-name-1 col-xl-5  float-start ">
+  <div class="f-name-1 col-xl-5 col-md-6 float-start ">
   <p> <b>PNQ</b> Pune </p>
   <p class="date">01 jan 2024 </p>
   <img class="plane" src="images/airplane.png" alt="">
   </div>
-  <div class="f-name-2 col-xl-4  float-start  ">
+  <div class="f-name-2 col-xl-4 col-md-4  float-start  ">
     <p> <b>PNQ</b> Pune </p>
   <p class="date">one way  </p>
   </div>
-  <div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+  <div class="fee col-xl-2 col-md-3 float-end  "><p>₹2000</p> </div>
   </div>
   
   
-  <div class="col-xl-9 routes my-2  ">
+  <div class="col-xl-9 col-md-8 routes my-2  ">
     <div class="flogo col-xl-1 float-start "><img src="images/6E.gif " alt=""></div>
-    <div class="f-name-1 col-xl-5  float-start ">
+    <div class="f-name-1 col-xl-5 col-md-6  float-start ">
     <p> <b>PNQ</b> Pune </p>
     <p class="date">01 jan 2024 </p>
     <img class="plane" src="images/airplane.png" alt="">
     </div>
-    <div class="f-name-2 col-xl-4  float-start  ">
+    <div class="f-name-2 col-xl-4 col-md-4 float-start  ">
       <p> <b>PNQ</b> Pune </p>
     <p class="date">one way  </p>
     </div>
-    <div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+    <div class="fee col-xl-2 col-md-3  float-end  "><p>₹2000</p> </div>
     </div>
   
   
-    <div class="col-xl-9 routes my-2  ">
+    <div class="col-xl-9 col-md-8 routes my-2  ">
       <div class="flogo col-xl-1 float-start "><img src="images/FD.gif " alt=""></div>
-      <div class="f-name-1 col-xl-5  float-start ">
+      <div class="f-name-1 col-xl-5 col-md-6 float-start ">
       <p> <b>PNQ</b> Pune </p>
       <p class="date">01 jan 2024 </p>
       <img class="plane" src="images/airplane.png" alt="">
       </div>
-      <div class="f-name-2 col-xl-4  float-start  ">
+      <div class="f-name-2 col-xl-4 col-md-4  float-start  ">
         <p> <b>PNQ</b> Pune </p>
       <p class="date">one way  </p>
       </div>
-      <div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+      <div class="fee col-xl-2 col-md-3 float-end  "><p>₹2000</p> </div>
       </div>
   
   
   
-      <div class="col-xl-9 routes my-2  ">
+      <div class="col-xl-9 col-md-8 routes my-2  ">
         <div class="flogo col-xl-1 float-start "><img src="images/AK.gif " alt=""></div>
-        <div class="f-name-1 col-xl-5  float-start ">
+        <div class="f-name-1 col-xl-5 col-md-6  float-start ">
         <p> <b>PNQ</b> Pune </p>
         <p class="date">01 jan 2024 </p>
         <img class="plane" src="images/airplane.png" alt="">
         </div>
-        <div class="f-name-2 col-xl-4  float-start  ">
+        <div class="f-name-2 col-xl-4 col-md-4  float-start  ">
           <p> <b>PNQ</b> Pune </p>
         <p class="date">one way  </p>
         </div>
-        <div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+        <div class="fee col-xl-2 col-md-3 float-end  "><p>₹2000</p> </div>
         </div>
   
   
   
   
-        <div class="col-xl-9 routes my-2  ">
+        <div class="col-xl-9 col-md-8 routes my-2  ">
           <div class="flogo col-xl-1 float-start "><img src="images/EY.gif " alt=""></div>
-          <div class="f-name-1 col-xl-5  float-start ">
+          <div class="f-name-1 col-xl-5 col-md-6  float-start ">
           <p> <b>PNQ</b> Pune </p>
           <p class="date">01 jan 2024 </p>
           <img class="plane" src="images/airplane.png" alt="">
           </div>
-          <div class="f-name-2 col-xl-4  float-start  ">
+          <div class="f-name-2 col-xl-4 col-md-4 float-start  ">
             <p> <b>PNQ</b> Pune </p>
           <p class="date">one way  </p>
           </div>
-          <div class="fee col-xl-2  float-end  "><p>₹2000</p> </div>
+          <div class="fee col-xl-2 col-md-3 float-end  "><p>₹2000</p> </div>
           </div>
   
         </div>
@@ -694,7 +662,7 @@ Go for Budget Airlines </h5>
 
 </div>
 
-<div class="col-xl-6" style="padding: 0px;" >
+<div class="col-xl-6  d-none d-xl-block " style="padding: 0px;" >
 
 <div class="slider-bg"    >
 
@@ -804,14 +772,14 @@ Based in the United States, LFF was born with an idea to empower global traveler
   <div class="social mt-1  ">
     <div class="container">
     <div class="row">
-        <div class="col-xl-6  d-flex justify-content-start mb-2 flex-wrap">
+        <div class="col-xl-6 col-md-8 d-flex justify-content-start mb-2 flex-wrap">
           <div><img src="images/d2.jpg" alt=""></div>
           <div><img src="images/dc2.jpg" alt=""></div>
           <div><img src="images/j2.jpg" alt=""></div>
           <div><img src="images/v2.jpg" alt=""></div>
           <div><img src="images/ae2.jpg" alt=""></div>
         </div>    
-        <div class=" social-icons  col-xl-6">
+        <div class=" social-icons  col-xl-6 col-md-4">
           <i class="fa fa-facebook-square" aria-hidden="true"></i>
           <i class="fa fa-twitter" aria-hidden="true"></i>
           <i class="fa fa-instagram" aria-hidden="true"></i>
@@ -856,6 +824,20 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
+
+
+
+</script>
+
+
+<script>
+  function w3_open() {
+  document.getElementById("w3mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("w3mySidebar").style.display = "none";
+}
 </script>
 
 

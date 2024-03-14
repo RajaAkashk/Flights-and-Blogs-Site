@@ -63,7 +63,7 @@ nav{
 }
 
 nav .menu{
-    padding: 19px 39px 0 0;
+    padding: 17px 39px 0 0;
 }
 
 nav .menu li a{
@@ -80,7 +80,8 @@ nav .menu li a:hover{
 
 .menu li .num{
     background-color: #203970;
-    padding: 25px 10px;
+    padding: 25px 10px 20px 10px;
+    height: 55px !important;
     color: #fff;
     font-size: 14px;
 }
@@ -104,10 +105,15 @@ background-position: center;
 
 .booking-box .tab-content {
     background-color: #FFFFFF;
-    padding: 26px 10px;
+    /* padding: 26px 10px; */
+    padding: 20px 10px 25px 10px;
     border-radius: 12px;
 }
 
+.booking-box .booking-table{
+    display: flex;
+    justify-content: space-around;
+}
 
 .booking-box .btns{
     background-color: #203970;
@@ -145,21 +151,17 @@ margin: 0 0 8px 0;
     border-radius: 50%;
     text-align: center;
     color: #fff;
-    padding: 7px 0 0 0;
+    padding: 4px 0 0 0;
     position: absolute;
-    left: 281px;
-    top: 103px;
+    left: 264px;
+    top: 123px;
 }
 .booking-box .s-tbox{
     border: 1px solid #ccc;
     background-color: #ffff;
     padding: 10px 10px ;  
-    width: 247px;
 }
 
-.booking-box .d-box{
-    width: 147px;
-}
 
 .booking-box .s-tbox input{
     outline: none;
@@ -177,16 +179,16 @@ margin: 0 0 8px 0;
     font-size: 18px;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 26px 0 0 0;
+    padding: 23px 0 0 0;
     letter-spacing: -1px;
+    margin: 15px 0 0 0;
 }
 
 
-/* table  */
-
-
 .banner-text{
-    margin: 50px auto ;
+    margin: 0px auto ;
+    text-align: center;
+    margin-bottom: 50px !important;
 }
 
 .banner-text p    {
@@ -201,7 +203,7 @@ margin: 0 0 8px 0;
     font-size: 19px;
 }
 
-h1{
+.banner-text h1{
 
   font-family: "Roboto", Sans-serif;
   font-size: 60px;
@@ -469,7 +471,7 @@ font-size: 20px ;
 .plane{
     margin: 0 5px 0 0  ;
     float: right;
-    margin: -32px 14px 0 19px  ;
+    margin: -43px 14px 0 8px;
     width: 40px ;
 }
 
@@ -520,12 +522,11 @@ height: 60px ;
 
 
 .form-banner .form-box1{
-    width: 89%;
     background-image: linear-gradient(180deg, #449DD5 0%, #30416F 100%);
     padding: 50px 20px;
     color: #fff;
     height: 86%;
-  margin: 40px 0 0 0;
+  margin: 25px 0 0 0;
   float: right;
 }
 
@@ -572,7 +573,6 @@ height: 60px ;
 
 .slider-bg{
     background-color: #FFFFFF;
-    height: 100%;
     padding: 34px;
     margin: 9px 0 0 0;
 }
@@ -624,7 +624,7 @@ height: 60px ;
     height: 100px ;
     background-image: url(../images/inner-banner5-1.jpg);
 margin: 0 0 50px 0 ;
-padding: 33px 0 0 0 ;
+padding: 10px 0 0 0 ;
 background-position: center;
 }
 
@@ -717,7 +717,7 @@ height: 80%;
 .number p{
     width: 100px;
     height: 100px;
-    padding: 25px 0 0 0 ;
+    padding: 12px 0 0 0 ;
     text-align: center;
     align-items: center;
     color: #FFFFFF;
@@ -1279,35 +1279,156 @@ justify-content: end;
 }
 
 
+@media only screen and (max-width: 1200px){
+    .routes {
+        border-radius: 25px 0 0 25px ;
+        margin: 0 0 0 156px ;
+      }
+
+
+      .abt-company img{
+        width: 92%;
+      }
+
+      .email-inpt input {
+        width: 157px;
+    }
+
+}
+
+
 
 @media only screen and (max-width: 1024px){
 
-    .abt-boxes .box1, .abt-boxes .box2, .abt-boxes .box3 {
-        height: 51%;
-    width: 44%;
-      }
-      .abt-boxes .box3 {
-        margin: 42px 0 0 0;
-      }
-      
-      .email-inpt input {
-        font-size: 18px;
-        height: 42px;
-        margin: 0px;
-      }
+    .w3-bar-block .w3-bar-item:hover ,.w3-bar-block .w3-bar-item:focus ,.w3-bar-block .w3-bar-item:active {
+        background-color: #1f6dad !important;
+        color: #fff !important;
+        font-weight: 600;
+    }
 
-   .email-box{
-    padding: 0px;
-   }
+.info{
+    position: inherit;
+    margin: 0px;
+}
 
-   .email-inpt .btn {
-    font-size: 18px;
-    height: 42px;
-    padding: 0;
+     
+.point-logo {
+    top: -23px;
+    left: 91px;
+  }
+
+  .banner-text h1 {
+    font-size: 46px;
+  }
+
+  .booking-box .booking-table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.booking-box .exchange {
+    width: 28px;
+    height: 29px;
+    margin: 40px 0 0 0;
+    padding: 2px 0 0 0;
+    position: inherit;
+}
+
+.booking-box .s-tbox {
+    border: 1px solid #ccc;
+    background-color: #ffff;
+    padding: 10px 10px;
+    width: 267px;
+}
+
+  .banner-text p ,.banner-text p span {
+    font-size: 15px;
+    margin: 23px 0 0 0;
   }
 
 
-      
+  .banner {
+    height: 100%;
+  }
+
+
+  .routes {
+    border-radius: 25px 0 0 25px;
+  }
+
+  .fee{
+    padding: 14px 5px 0 5px !important;
+  }
+
+  .routes {
+    border-radius: 25px 0 0 25px ;
+    margin: 0 0 0 95px;
+  }
+
+  
+.about-banner{
+    height: 100px ;
+margin: 0 0 50px 0 ;
+padding: 10px 0 0 0 ;
+}
+
+
+.abt-boxes .box1 , .abt-boxes .box2 ,.abt-boxes .box3 {
+    /* height: 33%;
+    width: 76%;
+    margin: 17px 0;
+    border-radius: 34px; */
+    height: 48%;
+    width: 45%;
+    margin: 17px 0;
+    border-radius: 34px;
+}
+
+.number{
+    margin: 0;
+}
+
+.number p {
+    margin: 0 auto;
+   
+}
+
+.email-inpt input ,.email-inpt .btn {
+    font-size: 16px;
+    margin: 0 4px;  
+    width: 85px;
+  }
+  .email-inpt input{
+    width: 112px;
+  }
+  .email-inpt {
+    padding: 99px 0 0 0;
+  }
+  .email-box h5 {
+    font-size: 24px;
+  }
+
+
+  .contact-box {
+    padding: 20px;
+    margin: 22px 0;
+    width: 43%;
+  }
+
+  .form i {
+    color: #203970;
+    font-size: 96px;
+    margin: 18px -122px 0 44px;
+  }
+
+  .blogs-card ,.blog-section .right {
+ width: 100%;
+  }
+
+
+
+
+
 }
 
 
@@ -1318,111 +1439,11 @@ justify-content: end;
 
 @media only screen and (max-width: 768px){
 
-    .nav2 i{
-        font-size: 20px;
-    padding: 19px 0 0 0 ;
-    color: #203970;
-    }
-    .nav2  img{
-        margin: 0 auto ;
-        text-align: center;
-    }
-
-.offcanvas.show{
-    width: 82%;
-}
-
-.offcanvas .btn-close{
-    position: absolute;
-    right: -32px;
-    top: 20px;
-    color: #000 !important;
-    background-color: #ffffff !important;
-    border-radius: 50%;
-    width: 7px !important;
-    height: 7px;
-    font-size: 12px;
- 
-}
-
-.logo-p{
-    text-align: center;
-}
-
-.p-logos{
-    border-top: 2px solid #17a3d5;
-    padding: 0 0 0 24%;
-    height: 40px;
-    margin: 0 0 50px 0;
-}
-
-.p-logos li{
- margin: 0 4px;
- text-align: center;
- float: left;
-}
-
-.p-logos li i{
-    font-size: 15px;
-}
-
-.menus li a{
-    color: #000;
-    font-family: "Roboto", Sans-serif;
-    text-transform: uppercase;
-    font-size: 14px;
-}
-.menus li a:hover , .menus li a:focus{
-    color: #203970 !important;
-}
-
-.menus li{
-    border-bottom: 1px solid #ccc;
-margin: 21px 0  !important;
-padding:  5px 0 0 0 !important; 
-}
-
-
-.abt-company img{
-    width: 84%;
-}
-
-.abt-boxes .box1 , .abt-boxes .box2 , .abt-boxes .box3 {
-    height: 34%;
-    margin: 0 0 25px 0;
-}
-
-
-.number {
-    margin: 10px 0 20px 121px;
-  }
-
-  footer li {
-    margin: 0 13px 0 0;
-  }
-  .social img {
-    width: 65px;
-  }
-  .social-icons{
-    justify-content: start;
-    }
-
-    .email-inpt {
-        height: 100%;
-        padding: 20px 0;
-    }
-
-
-    .email-inpt input ,.email-inpt .btn {
-        font-size: 16px;
-        height: 40px;
+    .booking-box .s-tbox {
+        border: 1px solid #ccc;
+        background-color: #ffff;
+        padding: 10px 10px;
+        width: 267px;
       }
-
-
-
-
-
-
-
-
 }
+
