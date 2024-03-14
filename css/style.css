@@ -1215,7 +1215,7 @@ footer{
 
 footer  li{
     list-style: none;
-    margin: 0 0 0px 15px  ;
+    margin: 0 15px 0 0   ;
     padding: 0px 0 19px 0;
 }
 
@@ -1439,11 +1439,147 @@ padding: 10px 0 0 0 ;
 
 @media only screen and (max-width: 768px){
 
+    .banner-text h1 {
+        font-size: 38px;
+    }
+
     .booking-box .s-tbox {
-        border: 1px solid #ccc;
-        background-color: #ffff;
         padding: 10px 10px;
         width: 267px;
       }
+
+
+
+      .booking-box .btns {
+        background-color: #203970;
+        margin: 7px 6px;
+      }
+
+
+
+      .booking-box .exchange {
+        margin: 0 auto ;
+        margin-top: 13px;
+        position: inherit;
+        rotate: 87deg;
+      }
+      
+
+      .booking-box .sn-btn {
+        margin: 0 auto;
+        margin-top: 21px;
+      }
+
+      .find-points {
+        height: 206px;
+    }
+    .point-logo {
+        top: -23px;
+        left: 42%;
+    }
+
+    .routes {
+        border-radius: 25px ;
+        margin: 0 0 0 0px;
+        font-size: 14px;
+    }
+    .flogo {
+        margin: 0px 0 0 7px;    
+    }
+    .flogo img {
+        width: 28px;
+    }
+    .plane {
+        float: right;
+        margin: -37px 4px 0 8px;
+        width: 31px;
+    }
+.fee {
+    padding: 17px 5px 0 5px !important;
+    font-size: 14px;
 }
 
+.form-banner .form-box1{
+    float: inherit;
+}
+
+
+.form-banner .form-box1 {
+    padding: 16px 20px;
+    height: 100%;
+}
+
+.form-banner form {
+    margin: 20px 11px 0 0;
+  }
+
+  .social img {
+    width: 63px;
+}
+
+
+
+.abt-boxes .box1, .abt-boxes .box2, .abt-boxes .box3 {
+
+    height: 27%;
+    width: 97%;
+  }
+  .abt-boxes .box2 , .abt-boxes .box3{
+      height: 33%;
+  }
+.abt-boxes .box3{
+      height: 35%;
+  }
+
+  .email-inpt {
+    height: 107px;
+    padding: 17px 0 0 0;
+    align-items: center;
+  }
+
+  .email-inpt input {
+    width: 203px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: start;
+  }
+
+.form-heading .fa-phone{
+    display: none;
+}
+
+ .form h5 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 0 0px;
+}
+
+.form p {
+    margin: 6px 0 0 0px;
+    color: #a5a4a4;
+}
+
+
+}
+
+
+  @media only screen and (max-width: 360px){
+
+    .social img {
+        width: 57px;
+      }
+
+}
+
+
+
+@media only screen and (max-width: 320px){
+
+    .email-inpt input {
+        width: 154px;
+      }
+
+      
+}
